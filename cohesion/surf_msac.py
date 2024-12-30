@@ -2,6 +2,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import cv2
 import random
+## 使用SURF+MSAC+加权平均融合方法实现图像拼接
+## 应用于后续的科研（数据集制作）
+## 陈沛森 湖北汽车工业学院 13346895166@163.com
 
 
 class Stitcher:
